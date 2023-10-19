@@ -1,3 +1,4 @@
+import VidScroll from "@/components/VidScrll";
 import VideoScroll from "@/components/VideoScroll";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
@@ -10,7 +11,7 @@ export default function index() {
 
 	return (
 		<main className="">
-			<Test />
+			<VidScroll />
 			<div className="absolute h-screen w-screen bg-white" id="trigger"></div>
 		</main>
 	);
